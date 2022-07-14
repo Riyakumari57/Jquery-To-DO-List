@@ -1,0 +1,57 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300;400;500&family=Roboto+Condensed:wght@300&family=The+Nautigal&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: linear-gradient(120deg , #c7ecee , #22a6b3);
+    min-height: 100vh;
+}
+
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+
+}
+
+h3{
+    margin: 10px 0;
+}
+
+.task{
+    width: 100%;
+    background:rgba(255,255,255,0.5) ;
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.comp .task{
+    background:rgba(0,0,0,0.2) ;
+}
