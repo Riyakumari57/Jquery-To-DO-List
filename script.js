@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#txtb").on("keyup",function(e){
-        //13 means enetr button
+        //13 means enter button
         if(e.keyCode == 13 &&  $("#txtb").val()!=""){
            var task = $("<div class='task'></div>").text($(".txtb").val());
            var del = $(" <i class='fas fa-trash-alt'></i>").click(function(){
